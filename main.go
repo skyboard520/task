@@ -27,4 +27,20 @@ func main() {
 	res := taks1.T4(stirs)
 	fmt.Println(res)
 
+	//数组操作、进位处理
+	resT5 := taks1.T5([]int{9, 9, 9, 9})
+	fmt.Println(resT5)
+
+	//删除有序数组中的重复项
+	resT6 := taks1.T6([]int{1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 9})
+	fmt.Println(resT6)
+
+	//合并区间
+	resT7 := taks1.T7([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}})
+	fmt.Println(resT7)
+
+	//两数之和
+	resT8 := taks1.T8([]int{2, 7, 11, 15}, 9)
+	fmt.Println(resT8)
+
 }
