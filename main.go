@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"task/task2"
-)
+import "task/task2"
 
 //TIP <p>To run your code, right-click the code and select <b>Run</b>.</p> <p>Alternatively, click
 //  <icon src="AllIcons.Actions.Execute"/> icon in the gutter and select the <b>Run</b> menu item from here.</p>
@@ -45,7 +42,7 @@ func main() {
 
 	//-------------------------------------
 	//指针 1
-	num := 5
+	/*num := 5
 	task2.PlusTen(&num)
 	fmt.Println(num)
 
@@ -69,5 +66,7 @@ func main() {
 	//Channel 1
 	task2.Channel1()
 	//Channel 2
-	task2.Channel2()
+	task2.Channel2()*/
+	task2.Lock1()
+	task2.Lock2()
 }
