@@ -1,0 +1,15 @@
+{
+  "name": "My First Image NFT",
+  "description": "A test NFT with image on IPFS",
+  "image": "ipfs://bafkreig5zhljn2suciqlwk53fkvrfnb3vdrsfi62u6ufnkbnzpbetpo72m",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Image"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}
